@@ -1,0 +1,44 @@
+/* Write your CSS code here */
+.profile-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  border: 1px solid red;
+}
+
+.main-card-display-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 900px;
+  padding: 20px;
+}
+
+.banner-img {
+  height: 400px;
+  width: 850px;
+  border-radius: 10px;
+  border-width: 0px;
+}
+
+.content-style {
+  color: #8e8e8e;
+}
+
+.title-spec {
+  text-align: center;
+}

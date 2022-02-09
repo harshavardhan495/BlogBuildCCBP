@@ -1,0 +1,51 @@
+/* Write your CSS code here */
+.blog-card {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  border: 1px solid #8e8e8e;
+  padding: 10px;
+  width: 80%;
+}
+
+.avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+
+.main-img-props {
+  width: 30%;
+}
+
+.text-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.topic {
+  color: #d3d3d3;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.title {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-link {
+  text-decoration: none;
+}
